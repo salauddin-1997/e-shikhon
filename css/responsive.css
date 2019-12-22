@@ -1,0 +1,48 @@
+@media (max-width: 992px){
+	#sidebar-section{
+		width: 100%;
+		height: auto;
+	}
+	#sidebar-section .logo{
+		float: right;
+		width: 6%;
+
+		border: 1px solid red;
+		border-radius: 50%;
+		margin: 10px;
+	}
+	#sidebar-section h6{
+		float: right;
+		padding: 20px 10px;
+		font-size: 13px;
+	}
+	#sidebar-section nav{
+		width: 35%;
+	}
+
+	(max-width: 576px){
+	#sidebar-section{
+		/*width: 100%;*/
+		height: auto;
+	}
+	#sidebar-section .logo{
+		/*float: right;*/
+		/*width: 6%;*/
+
+		border: 1px solid green;
+		border-radius: 50%;
+		margin: 10px;
+	}
+	#sidebar-section h6{
+		float: right;
+		padding: 20px 10px;
+		font-size: 13px;
+	}
+	#sidebar-section nav{
+		width: 35%;
+	}
+}
+}
+
+@media 
+
