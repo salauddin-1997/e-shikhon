@@ -2,6 +2,7 @@
 	#sidebar-section{
 		width: 100%;
 		height: auto;
+		border: 0;
 	}
 	#sidebar-section .logo{
 		float: right;
@@ -17,32 +18,80 @@
 		font-size: 13px;
 	}
 	#sidebar-section nav{
-		width: 35%;
+		width: 40%;
+	}
+	#sidebar-section p{
+		text-align: left;
 	}
 
-	(max-width: 576px){
-	#sidebar-section{
-		/*width: 100%;*/
+
+	#sidebar-section .nav-item{
+		width: 150px;
+		border-bottom: 1px solid #fff;
+	}
+
+/*==============sidebar-section==============*/
+
+	#about-section{
+		width: 100%;
 		height: auto;
-	}
-	#sidebar-section .logo{
 		/*float: right;*/
-		/*width: 6%;*/
+		/*overflow: auto;*/
+		/*text-align: center;*/
+		/*background-color: #3B3B98;*/
+	}
+	#about-section .top-img{
+		height: auto;
+		width: 60%;
+		position: relative;
+		/*margin: 40px auto;*/
+	}
+	#about-section .contant{
+		/*padding: 10px;*/
+		/*overflow: visible;*/
+	text-shadow: 0px 1px 4px rgba(255,255,255,0.7);
+		/*color: #fff;*/
+		/*text-shadow: 0px 4px 7px rgba(22,22,22,1);*/
+		/*width: 100%;*/
+		/*position: absolute;*/
+		/*top: 88%;*/
+		/*left: 50%;*/
+		/*transform: translate(-50%, -50%);*/
+	}
+	#about-section .contant h5{
+		font-size: 12px;
+		letter-spacing: 1px;
+		font-weight: bold;
+	}
+	#about-section .contant p{
+		font-size: 10px;
+		margin-bottom: 5px;
+	}
 
-		border: 1px solid green;
-		border-radius: 50%;
-		margin: 10px;
+	#about-section button{
+		width: 40%;
+
+		/*border: 0;*/
+		/*color: #fff;*/
+		font-size: 15px;
+		padding: 10px;
+		margin: 30px 0;
+		/*border-radius: 7px;*/
+		/*background-color: #079992;*/
+		/*transition: all 0.5s;*/
 	}
-	#sidebar-section h6{
-		float: right;
-		padding: 20px 10px;
-		font-size: 13px;
+	#about-section button:hover{
+		background-color: #1eaf4b;
 	}
-	#sidebar-section nav{
-		width: 35%;
+	#about-section button i{
+		font-size: 15px;
+		padding-right: 10px;
 	}
-}
+
+
+
+
+
 }
 
-@media 
 
