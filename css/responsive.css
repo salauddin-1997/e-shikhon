@@ -78,13 +78,26 @@
 	padding: 50px 30px;
 	color: #000;
 }
-.aboutme p{
+.content p{
 	font-size: 17px;
 }
 
-.aboutme .details h4{
+.content .details h4{
 	font-size: 25px;
 }
+
+
+/*==============about-section end ==============*/
+
+.content .card img{
+	padding: 50px;
+}
+.content .card {
+	text-align: center;
+}
+
+/*==============experiences & education-section end ==============*/
+
 
 
 
