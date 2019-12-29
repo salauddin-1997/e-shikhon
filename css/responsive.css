@@ -1,11 +1,11 @@
 @media (max-width: 992px){
 
-	
 
 	#sidebar-section{
 		width: 100%;
 		height: auto;
 		border: 0;
+		padding: 0;
 	}
 	#sidebar-section .logo{
 		float: right;
@@ -23,7 +23,7 @@
 		font-size: 13px;
 	}
 	#sidebar-section nav{
-		width: 40%;
+		width: 50%;
 	}
 	#sidebar-section p{
 		text-align: left;
@@ -90,7 +90,7 @@
 /*==============about-section end ==============*/
 
 .content .card img{
-	padding: 50px;
+	padding: 20px;
 }
 .content .card {
 	text-align: center;
