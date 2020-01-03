@@ -41,7 +41,6 @@ img{
 }
 /*===============DEFULT CSS end===============*/
 
-
 #sidebar-section{
 	width: 20%;
 	float: left;
@@ -53,10 +52,6 @@ img{
 }
 #sidebar-section .logo{
 	width: 40%;
-	/*padding-top: 10px;*/
-	/*padding-bottom: 10px;*/
-	/*padding: 13px 0;*/
-	/*margin: 20px 0;*/
 	margin: 0 auto;
 	border: 2px solid #820036;
 	border-radius: 50%;
@@ -75,6 +70,9 @@ img{
 	padding: 10px 0;
 	letter-spacing: 1px;
 }
+#sidebar-section a{
+	color: #fff;
+}
 #sidebar-section button{
 	background-color: red;
 }
@@ -92,6 +90,7 @@ img{
 .nav-item a:hover{
 	transform: matrix(1, 0, 0, 1, 6, 0);
 	background-color: #006266;
+	display: block;
 }
 nav p{
 	color: #fff;
@@ -117,9 +116,9 @@ nav p{
 	color: #fff;
 	background-color: #820036;
 }
+/*===============sidebar-section end===============*/
 
-/*===============about-section end===============*/
-
+/*===============bgcolor-section start===============*/
 #bgcolor-section{
 	width: 80%;
 	height: 100vh;
@@ -191,11 +190,9 @@ nav p{
 	font-size: 22px;
 	padding-right: 10px;
 }
+/*==============bgcolor-section end ==============*/
 
-/*==============about-section end ==============*/
-
-
-
+/*==============about me start ==============*/
 .content p{
 	font-weight: normal;
 	padding-left: 10px;
@@ -208,7 +205,6 @@ nav p{
 	border-bottom: dotted;
 	border-color: #999;
 }
-
 .details h5{
 	display: inline-block;
 	font-weight: bold;
@@ -216,7 +212,6 @@ nav p{
 	border-radius: 5px;
 	background-color: #999;
 }
-
 .details h4{
 	padding: 10px 0;
 	font-weight: bold;
@@ -225,9 +220,7 @@ nav p{
 	display: inline-block;
 }
 
-
-/*==============aboutme-section end ==============*/
-
+/*==============profile start ==============*/
 .profile h2{
 	padding: 20px 0;
 	font-size: 27px;
@@ -237,27 +230,21 @@ nav p{
 	padding-top: 50px;
 }
 
-
-/*==============profile-section end ==============*/
+/*==============education & expriens-section start ==============*/
 .scene {
   width: 90%;
   height: auto;
   border: 1px solid #CCC;
   margin: 40px;
 }
-
 .panel {
   width: 100%;
   height: auto;
-  /*background: red;*/
-  /* perspective function in transform property */
   transform: perspective(1000px) rotateY(-5deg);
 }
 .WD{
 	width: 100%;
   height: auto;
-  /*background: red;*/
-  /* perspective function in transform property */
   transform: perspective(1000px) rotateY(5deg);
 }
 .content .card img{
@@ -291,8 +278,33 @@ nav p{
 	color: #fff;
 }
 
+/*===========client section start===========*/
+.client .item img{
+	border-radius: 50%;
+}
+.owl-carousel span, .owl-nav{
+	display: none;
+}
+.owl-dots{
+	text-align: center;
+}
+.owl-dots .owl-dot{
+	width: 10px;
+	height: 10px;
+	background-color: #454444 !important;
+	margin: 0 5px;
+}
+.owl-dots .owl-dot.active{
+	background-color: #820036 !important;
+}
+.owl-dots .owl-dot:first-child{
+	margin-left: 0 !important;
+}
+.owl-dots .owl-dot:last-child{
+	margin-right: 0 !important;
+}
 
-/*==============experiences  & education-section end ==============*/
+/*==============gallery-section start ==============*/
 .gallery .light-box{
 	position: relative;
 }
@@ -338,8 +350,7 @@ nav p{
 	opacity: 1;
 }
 
-/*===========light-box section end===========*/
-
+/*===========contact-section start===========*/
 .contact .adrs i{
 	float: left;
 	font-size: 30px;
@@ -355,35 +366,3 @@ nav p{
 .contact p{
 	padding: 0;
 }
-
-
-/*===========contact section end===========*/
-.client .item{
-	/*text-align: center;*/
-}
-.client .item img{
-	border-radius: 50%;
-}
-/* Owl Carousel */
-.owl-carousel span, .owl-nav{
-	display: none;
-}
-.owl-dots{
-	text-align: center;
-}
-.owl-dots .owl-dot{
-	width: 10px;
-	height: 10px;
-	background-color: #454444 !important;
-	margin: 0 5px;
-}
-.owl-dots .owl-dot.active{
-	background-color: #820036 !important;
-}
-.owl-dots .owl-dot:first-child{
-	margin-left: 0 !important;
-}
-.owl-dots .owl-dot:last-child{
-	margin-right: 0 !important;
-}
-
