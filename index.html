@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- Fontawesome style -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<!-- style css -->  
+    <!-- <link rel="stylesheet" href="css/sidebar.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.cs">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>RelodeBD!</title>
+  </head>
+  <body> 
+<!-- #fc477b #00A65A #ff3334
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,71,123,1) 100%);
+background: linear-gradient(90deg, rgba(252,71,123,0.9696078260405725) 0%, rgba(52,69,180,1) 0%, rgba(252,71,123,1) 100%); -->
+
+<section id="top">
+    <div class="left"> <h2>Wellcome</h2> </div>  
+
+    <div class="right"> <h6>Balance: 8855.55</h6> </div>
+
+    <div class="btn">
+        <div class="dropdown">
+          <button class="dropbtn dropdown-toggle"><i class="fas fa-user"></i></button>
+          <div class="dropdown-content">
+            <a href="#">My Profile</a>
+            <a href="#">Change Password</a>
+            <a href="#">Something else here</a>
+            <a href="#">Log Out</a>
+          </div>
+        </div>
+    </div>     
+</section>
+   
+
+<section id="full">
+  <div class="wrapper">
+    <nav id="sidebar">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+          <i class="fa fa-bars"></i>
+          <span class="sr-only">Toggle Menu</span>
+        </button>
+      </div>
+      <div class="px-4 pt-4">
+        <h1><a href="#" class="logo">User Pannel</a></h1>
+        <ul class="list-unstyled components mb-5">
+          <li class="active">
+            <a href="#"><span class="fa fa-home mr-3"></span> Dashboard</a>
+          </li>
+          <li>
+              <div class="dropdown">
+                <a href="#" class="dropdown-toggle"><span class="fa fa-user mr-3"></span> New request</a>
+                <div class="dropdown-content">
+                  <a href="#">My Profile</a>
+                  <a href="#">Change Password</a>
+                  <a href="#">Something else here</a>
+                  <a href="#">Log Out</a>
+                </div>
+              </div> 
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-briefcase mr-3"></span> Pending history</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-sticky-note mr-3"></span> History</a>
+          </li>
+          <li>
+            <div class="dropdown">
+            <a href="#" class="dropdown-toggle"><span class="fa fa-suitcase mr-3"></span> User</a>
+              <div class="dropdown-content">
+                <a href="#">My Profile</a>
+                <a href="#">Change Password</a>
+                <a href="#">Something else here</a>
+                <a href="#">Log Out</a>
+              </div>
+            </div> 
+        </li>
+          <li>
+            <a href="#"><span class="fa fa-cogs mr-3"></span>Add Blance</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-paper-plane mr-3"></span> Report</a>
+          </li>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-paper-plane mr-3"></span> Receive Blance</a>
+          </li>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-paper-plane mr-3"></span> Payment Blance</a>
+          </li>
+          </li>
+          <li>
+            <div class="dropdown">
+            <a href="#" class="dropdown-toggle"><span class="fas fa-user mr-3"></span> My Account</a>
+              <div class="dropdown-content">
+                <a href="#">My Profile</a>
+                <a href="#">Change Password</a>
+                <a href="#">Something else here</a>
+                <a href="#">Log Out</a>
+              </div>
+            </div> 
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-paper-plane mr-3"></span> Complain</a>
+          </li>
+          </li>
+          <li>
+            <a href="#"><span class="fas fa-sign-out-alt mr-3"></span> Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+<!------- Page Content  ------->
+    <div id="content" class="p-4 p-md-5">
+      <section id="message">
+      <!-- <h6 class="offer"></h6> style="text-align: center; margin: 0px; color:rgb(245, 238, 238);">Today Offer</h6>
+        <span > robi 399tk 12gb  robi 399tk 12gb  robi 399tk 12gb robi 399tk 12gb</span> -->
+        
+      <div class="alert">
+        <span class="closebtn">&times;</span>
+        <marquee  style="width: 70%; margin: 0 15%; color: #FFFFFF; font-family: Book Antiqua" behavior="alternate" > Today Offer</marquee>
+        <p>Indicates a dangerous or potentially negative action. Indicates a dangerous or potentially negative action.</p>
+      </div>
+        
+      <div class="alert success mt-3">
+        <span class="closebtn">&times;</span>  
+        <strong>Notice!</strong> Indicates a successful or positive action.
+        <marquee id='scroll_news' style=" color: #FFFFFF"" ><div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();">News 1   News 2  News 3 News 4 ....... More news here </div></marquee>  
+      </div>
+      </section>
+        
+      <section id="request" class="">
+        <button type="button" class="btn btn-outline-light" style="border: 1px solid gainsboro;"><img src="imgs/m recharge.png" alt=""></button>
+
+        <button type="button" class="btn btn-outline-light" style="border: 1px solid gainsboro;"><img src="imgs/internet.png" alt=""></button>
+
+        <button type="button" class="btn btn-outline-light" style="border: 1px solid gainsboro;"><img src="imgs/minute.png" alt=""></button>
+
+        <button type="button" class="btn btn-outline-light" style="border: 1px solid gainsboro;"><img src="imgs/m banking.png" alt=""></button>
+
+        <button type="button" class="btn btn-outline-light" style="border: 1px solid gainsboro;"><img src="imgs/DTH.png" alt=""></button>
+
+        <button type="button" class="btn btn-outline-light" style="border: 1px solid gainsboro;"><img src="imgs/bill.png" alt=""></button> 
+      </section>
+        
+      <section id="user">
+        <button type="button" class="btn btn-outline-light " style="border: 1px solid gainsboro;"><img src="imgs/adduser.png" alt=""></button>
+        
+        <button type="button" class="btn btn-outline-light  " style="border: 1px solid gainsboro;"><img src="imgs/user-list.png" alt=""></button>
+        
+        <button type="button" class="btn btn-outline-light " style="border: 1px solid gainsboro;"><img src="imgs/add-blnce.png" alt=""></button>
+        
+        <button type="button" class="btn btn-outline-light " style="border: 1px solid gainsboro;"><img src="imgs/payment.png" alt=""></button>
+        
+        <button type="button" class="btn btn-outline-light " style="border: 1px solid gainsboro;"><img src="imgs/receive.png" alt=""></button>
+        
+        <button type="button" class="btn btn-outline-light " style="border: 1px solid gainsboro;"><img src="imgs/my-history.png" alt=""></button>
+        
+        <button type="button" class="btn btn-outline-light " style="border: 1px solid gainsboro;"><img src="imgs/user-history.png" alt=""></button>
+        
+        <button type="button" class="btn btn-outline- " style="border: 1px solid gainsboro;"><img src="imgs/report.png" alt=""></button>
+      </section>
+    </div>
+  </div>
+</section>
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
